@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 
 
-resp=urlopen("http://ipecomics.net/xxx-apartments-episode-10-the-cure-for-writers-block/");
+resp=urlopen("your url");
 
 page=resp.read()
 soup=BeautifulSoup(page)
